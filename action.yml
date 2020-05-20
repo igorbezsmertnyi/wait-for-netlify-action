@@ -4,9 +4,12 @@ branding:
   icon: "clock"
   color: "blue"
 inputs:
+  url:
+    description: "The Netlify site url to test against"
+    required: false
   site_name:
     description: "The Netlify site name to test against"
-    required: true
+    required: false
   request_headers:
     description: "Stringified HTTP Header object key/value pairs to send in requests"
     required: false
